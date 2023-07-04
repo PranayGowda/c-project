@@ -1,0 +1,7 @@
+2. 
+4. read name
+6. if [ -f $name ];then
+8. elif [ -d $name ]:then
+10. el<F3>if [ -L $name ];then
+12. else
+14. fi

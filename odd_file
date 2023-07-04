@@ -1,0 +1,35 @@
+1. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+1. #!/bin/bash
+. 
+. echo "enter name to check"
+. read name
+. 
+. if [ -f $name ];then
+. echo "$name is file"
+. elif [ -d $name ]:then
+. echo "$name is directory"
+. el<F3>if [ -L $name ];then
+. echo "$name is link"
+. else
+. echo "$name does not exist"
+. fi
+1. #!/bin/bash
+3. echo "enter name to check"
+5. 
+7. echo "$name is file"
+9. echo "$name is directory"
+11. echo "$name is link"
+13. echo "$name does not exist"
